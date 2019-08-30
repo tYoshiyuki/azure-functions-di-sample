@@ -7,6 +7,6 @@
 
     public class SampleSettings
     {
-        public string Key { get; set; }
+        public string SampleKey { get; set; }
     }
 }

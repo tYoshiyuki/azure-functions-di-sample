@@ -25,7 +25,7 @@ namespace AzureFunctionsDiSample.Applications
         protected override void Main()
         {
             Logger.LogInformation(_service.Greeting());
-            Logger.LogInformation(_appSettings.SampleSettings.Key); // Sample Code
+            Logger.LogInformation(_appSettings.SampleSettings.SampleKey); // Sample Code
         }
     }
 }
