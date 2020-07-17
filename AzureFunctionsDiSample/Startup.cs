@@ -16,7 +16,7 @@ namespace AzureFunctionsDiSample
             var services = builder.Services;
             var provider = services.BuildServiceProvider();
             var configuration = provider.GetRequiredService<IConfiguration>();
-            
+
             // 設定ファイルの内容をバインドする
             services.Configure<AppSettings>(configuration.GetSection("AppSettings"));
 
